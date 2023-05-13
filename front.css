@@ -534,7 +534,7 @@ iframe{
     top: 18rem;
     box-sizing: border-box;
     /* border: 20px solid darkblue; */
-    box-shadow: 5px 5px 80px 30px rgb(162, 162, 248);
+    box-shadow: 5px 5px 80px 10px rgb(162, 162, 248);
     border: 15px solid darkblue;
     border-left-style: none;
     border-right-style: none;
@@ -558,110 +558,6 @@ strong {
     margin-left: 50rem;
 }
 
-/* input,
-textarea {
-    font-family: 'Roboto', sans-serif;
-}
-
-.contact {
-    font-size: 3vw;
-    text-align: center;
-    margin-top: 2vw;
-}
-
-#section-wrapper {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    /* border: 2px solid black;
-    margin-top: 1vw;
-}
-
-.box-wrapper {
-    position: relative;
-    width: 1100px;
-    margin-left: 7vw;
-    border-radius: 30px;
-    margin-top: 0vw;
-
-}
-
-.form-wrap {
-    width: 80%;
-    /* padding:40px 25px 35px 25px; 
-    margin-top: 0vw;
-    background-color: #0F0771;
-    margin-right: 8vw;
-}
-
-.form-title {
-    text-align: center;
-    font-size: 3vw;
-    color: white;
-    text-transform: capitalize;
-}
-
-.form-fields {
-    /* display: table; 
-    width: 100%;
-    padding: 15px 5px 5px 5px;
-
-}
-
-.form-fields input,
-.form-fields textarea {
-    border: none;
-    outline: none;
-    background-color: none;
-    font-size: 1.5vw;
-    color: #555;
-    padding: 20px 10px 20px 5px;
-    width: 100%;
-}
-
-.form-fields textarea {
-    height: 6vw;
-    resize: none;
-}
-
-.form-group {
-    width: 46%;
-    float: left;
-    padding: 0px 30px;
-    margin: 10px 10px;
-    border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #ecf0f3, inset -8px -8px 8px #ffffff;
-    transition: all 2s;
-}
-
-.form-group:hover {
-    border-radius: 0%;
-    /* box-shadow: none; 
-}
-
-.form-fields .form-group:last-child {
-    width: 23vw;
-}
-
-.submit-button {
-    width: 96%;
-    height: 60px;
-    margin: 0px 12px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    cursor: pointer;
-    color: #fff;
-    text-align: center;
-    background-color: #f44770;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px, -3px, 8px #ffffff;
-    margin-top: 2vw;
-}
-
-.submit-button:hover {
-    background-color: #31279d;
-}*/
 
 nav::after {
     content: "";
@@ -878,7 +774,7 @@ nav::after {
     border-radius:2rem ;
     color: white;
     margin-top: 0.4rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
    }
    .btn6{
     /* margin-left:4rem; */
@@ -994,7 +890,69 @@ width: 26rem;
    .foot i{
 font-size: 2rem;
    }
-@media(max-width:998px) {
+   /* News session */
+   .news h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+   }
+   .foot1{
+    margin-top: 52rem;
+   }
+   .foot1{
+    height: 25rem;
+   }
+   .foot1 .map{
+    margin-left: 6rem;
+}
+.foot1 .map iframe{
+width: 26rem;
+}
+   .foot11 .footersbdiv{
+    padding: 1rem;
+   }
+   .foot1 .footerdiv .box{
+    margin-left: 1.1rem;
+   }
+   .foot11 i{
+font-size: 2rem;
+color: white;
+   }
+   .Syllabus h1{
+    margin-top: 1rem;
+    text-align: center;
+   }
+.Syllabus h2{
+    width: 100%;
+    background-color: var(--main-color);
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--color);
+    padding: 0.3rem;
+}
+.syltable{
+    margin-top: 1rem;
+}
+ table td{
+    padding: 0.2rem;
+}
+.thwid{
+    width: 40%;
+}
+.pgsyllabus h2{
+    width: 100%;
+    background-color: var(--main-color);
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--color);
+    padding: 0.3rem;
+
+}
+.pgtable{
+    margin-top: 1rem;
+}
+@media(max-width:978px) {
     html {
         font-size: 60%;
     }
@@ -1231,8 +1189,9 @@ height: 30rem;
         display: flex;
         flex-direction: column;
     }
-    footer{
+    .footer{
         height: 42rem;
+        margin-top: 50rem;
     }
   iframe{
     width: 80%;
