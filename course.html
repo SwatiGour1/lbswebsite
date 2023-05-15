@@ -4,6 +4,7 @@
 <head>
     <title>course</title>
     <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,18 +65,18 @@
                 <ul>
                     <li><a href="#">Result</a></li>
                     <li><a href="#">TimeTable</a></li>
-                    <li><a href="#">Syllabus</a></li>
-                    <li><a href="#">Recorded Lectures</a></li>
+                    <li><a href="syllabus.html">Syllabus</a></li>
+                    <li><a href="https://www.youtube.com/@drrajeevkhareprincipallbsc6572/videos?view=0&sort=dd&shelf_id=0">Recorded Lectures</a></li>
                 </ul>
             </li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#" class="learn">LearnQoch</a></li>
+            <li><a href="https://www.learnqoch.com" class="learn">LearnQoch</a></li>
             <li><a href="#" class="learn">Registration</a></li>
         </ul>
     </nav>
     <div id="course">
         <h1>Undergraduate & Postgraduate Course</h1>
-        <div class="crs">
+        <div class="crs" data-aos="zoom-in-up">
             <button class="btn1"><a href="#course">UnderGraduate Course</a></button>
             <button class="btn2"><a href="pg.html">PostGraduate Course</a></button>
         </div>
@@ -93,7 +94,7 @@
 
                 BSc Syllabus depends on the specialization taken by the student. BSc 1st year largely introduces the
                 course to the student with some basic fundamentals about the specialization.</p>
-            <div class="crsdiv">
+            <div class="crsdiv" data-aos="zoom-in-up">
                 <button>Computer Science</button>
                 <button>Physics ,Chemistry ,Mathematics</button>
                 <button>Microbiology</button>
@@ -115,7 +116,7 @@
                 The minimum required eligibility for BCom courses is 50% marks in class 12 or equivalent examination.
                 The BCom course is the most popular and sought after course by the commerce students. The BCom Syllabus
                 focusses on subjects such as Taxation, Economics, Accounts etc.</p>
-    <div class="bcomdiv">
+    <div class="bcomdiv" data-aos="zoom-in-up">
       <button class="btn4">Computer Application</button>
       <button class="btn5">Taxation</button>
       <button class="btn6">Office Management & Secretary Practice</button>
@@ -125,7 +126,7 @@
     <div class="art">
         <h2>Bechelors in Arts</h2>
         <p class="p3bsc">BA (Bachelor of Arts) is one of India's most popular undergraduate degree programmes. Every year, over 9 million students pursue Bachelor of Arts courses in a variety of disciplines like History, Hindi, English, Psychology, and Journalism after graduating from high school.</p>
-   <div class="artdiv">
+   <div class="artdiv" data-aos="zoom-in-up">
 <button>Computer Application</button>
 <button>History</button>
 <button>Political Science</button>
@@ -191,5 +192,11 @@
     </div>
   </footer>
 </body>
-
 </html>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init(
+    offset=150,
+      duration=150
+  );
+</script>
