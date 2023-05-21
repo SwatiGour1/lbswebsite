@@ -17,8 +17,8 @@ header {
     flex-wrap: nowrap;
     /* margin-top: 10px; */
     background-color: var(--main-color);
-    border-bottom-right-radius: 18.75rem;
-    width: 100%;
+   width: 100%;
+   height:10rem;
 }
 
 header .img1 {
@@ -27,22 +27,27 @@ header .img1 {
 
 header span {
     margin-left: 26rem;
+    font-size: 1rem;
+    word-spacing:0.2rem;
+    margin-top: 3rem;
 }
 
 header p {
     color: white;
     text-transform: capitalize;
-    margin-left: 1rem;
-    font-size: 1.9rem;
+    margin-left: 3rem;
+    font-size:2.2rem;
     letter-spacing: -1px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     word-spacing: 0.06rem;
+    margin-top: 2rem;
 }
 
 nav {
     background-color: white;
     /* width: 100%; */
+    margin-top:0.1rem;
 }
 
 nav ul {
@@ -63,11 +68,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 1.26rem;
+    font-size: 1.29rem;
     /* margin-left: 1.5vw; */
     padding: 0.1rem;
     color: var(--main-color);
-    font-family: "Constantia";
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     /* cursor: pointer; */
 }
@@ -103,7 +108,7 @@ nav ul li ul li {
     width: 100%;
     margin-left: 0;
     /* border-bottom: 0.1vw solid; */
-    font-family: "Cambria Bold";
+    font-family: 'Times New Roman', Times, serif;
     /* text-align: center; */
 }
 
@@ -157,26 +162,27 @@ nav::after {
 
 /* carousel session */
 #carouselExample {
-    margin-top: 0;
+    margin-top:1rem;
 }
 
 #carouselExample img {
-    height: 300px;
+    height: 500px;
 }
 
 /* committee session */
 .hsection {
     background-color: var(--main-color);
-    height: 20.5rem;
-}
+    height: 21rem;
+    }
 
 .hsection h1 {
     color: var(--color);
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.8rem;
+
 }
 
 .himgdiv {
@@ -197,7 +203,7 @@ nav::after {
     margin-left: 2rem;
     height: 15rem;
     background-color: var(--color);
-    border-radius: 50px;
+    /* border-radius: 50px; */
     margin-bottom: 1rem;
     margin-top: 0.7rem;
 }
@@ -217,12 +223,14 @@ nav::after {
 .hsech2 {
     text-align: center;
     color: var(--main-color);
-    font-family: "Cambria Bold";
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
 
 .hsech3 {
     text-align: center;
     color: var(--main-color);
+    font-size: 1.4rem;
 }
 
 .hsech4 {
@@ -243,24 +251,25 @@ nav::after {
     text-transform: uppercase;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.8rem;
-    margin-top: 0.4rem;
+    margin-top: 1rem;
 }
 
 .icongrp {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 13.2rem;
+    height: 14rem;
     width: 100%;
+    margin-top: 1rem;
 }
 
 .icongrp h2 {
     background-color: var(--main-color);
     color: var(--color);
-    height: 1.7rem;
-    font-size: 1.4rem;
+    height: 2.5rem;
+    font-size: 2rem;
 }
 
 
@@ -279,7 +288,7 @@ nav::after {
 /* departments session css */
 .departments {
     width: 100%;
-    height: 16.6rem;
+    height: 17rem;
     /* border: 2px solid; */
 }
 
@@ -288,9 +297,9 @@ nav::after {
     text-transform: uppercase;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.8rem;
-    margin-top: 0rem;
+    margin-top: 1.8rem;
 
 }
 
@@ -301,11 +310,12 @@ nav::after {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    margin-top: 1rem;
 }
 /* add on program css */
 .addprgm{
-    border-top: 4px solid var(--main-color);
-    height: 22rem;
+    /* border-top: 4px solid var(--main-color); */
+    height: 23rem;
 }
 .addgrp a{
     text-decoration: none;
@@ -313,20 +323,21 @@ nav::after {
 }
 
 .addgrp h3{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
     text-decoration: underline;
     color: var(--main-color);
+    margin-top:1rem;
 }
 .addprgm h1{
       color: var(--main-color);
     text-transform: uppercase;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.8rem;
-    margin-top: 0rem;
+    margin-top: 1.8rem;
 }
 .addgrp{
     display: flex;
@@ -340,8 +351,8 @@ nav::after {
     width: 100%;
     /* border: 2px solid; */
     /* margin-top: 1vw; */
-    background: linear-gradient(#0F0771, white);
-    height: 16rem;
+   background-color: var(--main-color);
+    height: 17rem;
     /* margin-left:10vw; */
 }
 
@@ -350,9 +361,9 @@ nav::after {
     text-transform: uppercase;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
-    font-size: 2.8rem;
-    margin-top: 0;
+    /* text-decoration: underline; */
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
 .glrgrp {
@@ -421,8 +432,9 @@ nav::after {
     text-transform: uppercase;
     font-family: "Arial Black";
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.8rem;
+    margin-top: 1.3rem;
 }
 
 /* footer session */
@@ -1065,6 +1077,96 @@ strong {
 .lab:hover{
     color: red;
 }
+/* alumni page css */
+.alumni{
+    margin-top: 1rem;
+    }
+.alumni h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.alumnicontainer{
+    position: relative;
+    left: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    
+    /* border: 2px solid; */
+    }
+.alumnicontainer .alumnicard{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 15px;
+}
+.alumnicontainer .alumnicard .alumniimg,
+.alumnicontainer .alumnicard .alumnicontent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.alumnicontainer .alumnicard .alumniimg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.alumnicontainer .alumnicard .alumnicontent::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--color);
+    transition: 0.5s;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin:right;
+    transition-delay: 0.5s;
+}
+.alumnicontainer .alumnicard:hover .alumnicontent::before{
+    transform: scaleX(1);
+    transition:transform 0.5s ease-in-out;
+    transform-origin: left;
+    transition-delay: 0s;
+}
+.alumnicontainer .alumnicard .alumnicontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alumnicontainer .alumnicard .alumnicontent .almncontent{
+    position: relative;
+    padding: 30px;
+    z-index: 1;
+    transition: 0.5s;
+    transform: translateX(-10px);
+    transition-delay: 0s;
+}
+.alumnicontainer .alumnicard .alumnicontent .alumnicontent{
+transform: translate(0px);
+}
+.alumnicontainer .alumnicard .alumnicontent .almncontent h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.alumnicontainer .alumnicard  .alumnicontent .almncontent p{
+font-size: 1em; 
+line-height:1.4em;
+font-weight: 300;
+} 
 @media(max-width:978px) {
     html {
         font-size: 60%;
@@ -1237,7 +1339,6 @@ strong {
         margin-left: 2rem;
         display: flex;
         flex-direction: column;
-        /* border: 2px solid; */
         width: 100%;
     }
 
@@ -1571,7 +1672,7 @@ strong {
     .addgrp{
     display: flex;
     flex-direction: column;
-    /* margin-left: 3rem; */
+
     }
     .addprgm h3{
         font-size: 1.5rem;
@@ -1579,6 +1680,6 @@ strong {
     .addgrp2{
         margin-left: 0%;
     }
-   
-}
+   }
+
 
